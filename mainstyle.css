@@ -1,0 +1,100 @@
+
+
+button {
+  width: 33%;
+  height: 500px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: Arial;
+}
+
+
+
+.button1 {
+  background-color: #B4E6F2; 
+  color: #0D076C; 
+  border: 5px solid #4CAF50;
+  
+}
+
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: #B4E6F2; 
+  color:  #0D076C; 
+  border: 5px solid #008CBA;
+  
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: #B4E6F2; 
+  color:  #0D076C; 
+  border: 5px solid #FF4747;
+  
+}
+
+.button3:hover {
+  background-color: #FF4747;
+  color: white;
+}
+
+h1{ 
+	margin:  5px;
+	padding:  5px;
+	color: white;
+	font-family:Arial;
+	background-color: #4E39B4;
+}
+
+h2{
+	margin:  5px;
+	padding:  5px;
+	font-family: Arial;
+	background-color: #8A7ADA;
+	color: white;
+
+}
+
+body{
+	background-color: #4CCBE3;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
