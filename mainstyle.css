@@ -1,7 +1,7 @@
 
 
 button {
-  width: 33%;
+  width: 30%;
   height: 500px;
   border: none;
   color: white;
@@ -21,6 +21,7 @@ button {
   background-color: #B4E6F2; 
   color: #0D076C; 
   border: 5px solid #4CAF50;
+  margin-left: 4.5%;
   
 }
 
@@ -52,6 +53,10 @@ button {
 .button3:hover {
   background-color: #FF4747;
   color: white;
+}
+
+.first{
+  margin-left:  4.5%
 }
 
 h1{ 
